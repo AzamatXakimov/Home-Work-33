@@ -51,8 +51,8 @@ body{
     height: 100%;
     margin: 0;
     font-family: var(--main-font-family);
-    font-weight: var();
-    background-color: var();
+    font-weight: var(--main-font-weight);
+    background-color: var(--main-body-bg-color);
 }
 
 .container{
