@@ -61,6 +61,7 @@ body{
     padding: 0 20px;
 }
 
+/* SITE HEADER  */
 .visually-hidden {
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
@@ -71,7 +72,6 @@ body{
     width: 1px;
 }
 
-/* SITE HEADER  */
 
 
 
