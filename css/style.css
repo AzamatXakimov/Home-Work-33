@@ -246,6 +246,130 @@ body{
 
  /* REVIEWS */
 
+.reviews {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 140px 0;
+    background-color: #004047;
+    background-image: url("../images/bg-img-5.svg");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    background-position: calc(50% + 660px) calc(50% + 367px);
+}
+.reviews::before {
+    position: absolute;
+    top: 0;
+    left: calc(50% + 0px);
+    display: inline-block;
+    width: 147px;
+    height: 100px;
+    background-image: url("../images/bg-img-4.svg");
+    background-repeat: no-repeat;
+    background-size: 147px 100px;
+    background-position: center;
+    content: "";
+}
+
+.reviews__textbox {
+    width: 932px;
+    margin-bottom: 56px;
+}
+
+.reviews__text {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+
+    text-align: center;
+    
+    color: var(--main-text-color);
+    
+}
+
+.reviews__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.reviews__item {
+    width: 350px;
+    padding-top: 36px;
+}
+.reviews__item:nth-child(1)::after {
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    background-image: url("../images/first-comment-img.png");
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    background-position: center;
+    content: "";
+}
+.reviews__item:nth-child(2) {
+    margin: 0 10px;
+}
+.reviews__item:nth-child(2)::after {
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    background-image: url("../images/second-comment-img.png");
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    background-position: center;
+    content: "";
+}
+.reviews__item:nth-child(3)::after {
+    display: block;
+    width: 62px;
+    height: 62px;
+    margin: 0 auto;
+    background-image: url("../images/third-comment-img.png");
+    background-repeat: no-repeat;
+    background-size: 62px 62px;
+    background-position: center;
+    content: "";
+}
+
+.reviews__comments {
+    margin: 0;
+    font-size: 15px;
+    line-height: 25px;
+
+    text-align: center;
+    
+    color: var(--main-text-color);
+}
+
+.reviews__name {
+    margin-top: 24px;
+    margin-bottom: 2px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+
+    text-align: center;
+    
+    color: var(--main-text3-color);
+}
+
+.reviews__description {
+    display: block;
+    margin-bottom: 32px;
+    font-size: 13px;
+    line-height: 18px;
+
+    text-align: center;
+    
+    color: var(--main-text-color);
+}
 
 
 /* SITE ARTICLE  */
