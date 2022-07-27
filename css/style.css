@@ -53,6 +53,7 @@ body{
     font-family: var(--main-font-family);
     font-weight: var(--main-font-weight);
     background-color: var(--main-body-bg-color);
+    overflow-x: hidden;
 }
 
 .container{
@@ -138,14 +139,70 @@ body{
 
 
 /* HERO SECTION  */
+.hero{
+    padding-top: 56px;
+    padding-bottom: 250px;
+    background-image: url("../images/bg-img-2.svg");  
+    background-repeat: no-repeat;
+    background-size: 358px 200px;
+    background-position: calc(50% + 358px) calc(50% + 253px);
+}
 
+.hero__box{
+    display: flex;
+    justify-content: space-between;
+}
+.hero__box::before{
+  position:absolute;
+  top: calc(50%  210px);
+  left:calc(50% - 870px);
+  display: inline-block;
+  content: "";
+  width: 200px;
+  height: 200px;
+  background-image: url(../images/bg-img-1.svg);
+}
+.hero__title-box{
+    width: 600px;
+}
+.hero__title{
+    margin: 0;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 100px;
+    color:var(--main-text-color);
+}
+.hero__mini-text{
+    color:var(--main-text2-color)
+}
+.hero__text-box{
+    width: 445px;
+    padding-top: 83px;
+    padding-bottom: 5px;
+}
 
+.hero__text{
+    margin: 0;
+    font-size: 18px;
+line-height: 28px;
+color:var(--main-text-color);
+}
+.hero__text::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color: var(--main-text3-color);
+}
 
 /* CREATE TEAM */
 
 
 
- /* REVIEWS */
+/* REVIEWS */
 
 
 
