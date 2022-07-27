@@ -260,7 +260,7 @@ body{
 .reviews::before {
     position: absolute;
     top: 0;
-    left: calc(50% + 0px);
+    left: calc(50% - 760px);
     display: inline-block;
     width: 147px;
     height: 100px;
@@ -287,6 +287,9 @@ body{
     color: var(--main-text-color);
     
 }
+.reviews__minitext{
+    color: var(--main-text3-color);
+}
 
 .reviews__list {
     display: flex;
@@ -300,6 +303,10 @@ body{
 .reviews__item {
     width: 350px;
     padding-top: 36px;
+    background-image: url("../images/quote.svg");
+    background-repeat: no-repeat;
+    background-size: 67px 56px;
+    background-position: top center;
 }
 .reviews__item:nth-child(1)::after {
     display: block;
