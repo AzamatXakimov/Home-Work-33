@@ -94,9 +94,6 @@ body{
     margin-right: 40px;
 }
 .nav__link{
-    font-family: 'Livvic';
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     color: var(--main-text-color);
@@ -104,17 +101,15 @@ body{
     transition: 0.3s ease;
 }
 .nav__link:hover{
-    color: #F67E7E;
+    color: var(--main-text2-color);
 }
 .link{
+    display: inline-block;
+    margin-left: auto;
     padding-top: 9px;
     padding-right: 33px;
     padding-bottom: 11px;
     padding-left: 32px;
-    margin-left: auto;
-    font-family: 'Livvic';
-    font-style: normal;
-    font-weight: 600;
     font-size: 18px;
     line-height: 28px;
     color: var(--main-text-color);
@@ -153,14 +148,14 @@ body{
     justify-content: space-between;
 }
 .hero__box::before{
-  position:absolute;
-  top: calc(50%  210px);
-  left:calc(50% - 870px);
-  display: inline-block;
-  content: "";
-  width: 200px;
-  height: 200px;
-  background-image: url(../images/bg-img-1.svg);
+    position:absolute;
+    top: calc(50%  210px);
+    left:calc(50% - 870px);
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url("../images/bg-img-1.svg");
+    content: "";
 }
 .hero__title-box{
     width: 600px;
@@ -176,6 +171,7 @@ body{
     color:var(--main-text2-color)
 }
 .hero__text-box{
+    position: relative;
     width: 445px;
     padding-top: 83px;
     padding-bottom: 5px;
@@ -184,8 +180,8 @@ body{
 .hero__text{
     margin: 0;
     font-size: 18px;
-line-height: 28px;
-color:var(--main-text-color);
+    line-height: 28px;
+    color:var(--main-text-color);
 }
 .hero__text::before{
     position: absolute;
